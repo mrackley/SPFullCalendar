@@ -15,6 +15,7 @@
  * @name SPFullCalendar
  * @category Plugins/SPFullCalendar
  * @author Mark Rackley / http://www.paitgroup.com / mrackley@paitgroup.com
+ * @auther Waldek Mastykarz / https://blog.mastykarz.nl/
  */
 -->
 
