@@ -1,4 +1,4 @@
-/*
+<!--/*
  * SPFullCalendar - Create a calendar view using FullCalendar.io and SharePoint Online Task list
  * Version 1.0 
  * @requires jQuery v1.11 or greater 
@@ -15,7 +15,7 @@
  * @category Plugins/SPFullCalendar
  * @author Mark Rackley / http://www.paitgroup.com / mrackley@paitgroup.com
  */
-
+-->
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
 <script  type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
 
