@@ -107,12 +107,11 @@ function UpdateTask(id,dueDate)
 	            "/_api/Web/Lists/getByTitle('"+TASK_LIST+"')/Items(" + id + ")",
 	        type: "POST",
 	        data: JSON.stringify({
-	            "__metadata": { type: "SP.Data.TasksListItem" },
 	            DueDate: sDate,
 	        }),
 	        headers: {
-	            Accept: "application/json;odata=verbose",
-	            "Content-Type": "application/json;odata=verbose",
+	            Accept: "application/json;odata=nometadata",
+	            "Content-Type": "application/json;odata=nometadata",
 	            "X-RequestDigest": jQuery("#__REQUESTDIGEST").val(),
 	            "IF-MATCH": "*",
 	            "X-Http-Method": "PATCH"
